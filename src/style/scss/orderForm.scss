@@ -1,0 +1,124 @@
+    #orderForm {
+        background: #FAFAFA;
+        .yd-scrollview {
+            .yd-cell-box {
+                .yd-cell {
+                    .yd-cell-item {
+                        margin-top: .2rem;
+                        &:not(:last-child):after{
+                            border: none;
+                        }
+                        .yd-cell-left {
+                            font-size: .24rem;
+                        }
+                        .yd-cell-right {
+                            color: #F54D42;
+                        }
+                    }
+                    .carContent {
+                        height: 1.76rem;
+                        padding-top: .3rem;
+                        background: #FAFAFA;
+                        padding-bottom: .3rem;
+                        .carImg {
+                            float: left;
+                            width: 1.7rem;
+                            margin-left: .3rem;
+                            img {
+                                width: 1.7rem;
+                                height: .9rem;
+                            }
+                        }
+                        .mainContent {
+                            margin-left: .28rem;
+                            width: 3.2rem;
+                            float: left;
+                            color: rgb(92, 92, 92);
+                            font-size: .24rem;
+                            font-family: 'PingFangSC';
+                            word-wrap:break-word;
+                            p {
+                                &:first-child {
+                                    margin-bottom: .12rem;
+                                    font-size: .3rem;
+                                    color: #000;
+                                }
+                                &:last-child {
+                                    color: #888;
+                                    font-size: .24rem;
+                                }
+                            }
+                        }
+                        .carPrice {
+                            float: right;
+                            color: rgb(92, 92, 92);
+                            padding-right: .2rem;
+                            p {
+                               
+                                &:first-child {
+                                    font-weight: 600;
+                                    margin-bottom: .12rem;
+                                    font-size: .4rem;
+                                }
+                                &:last-child {
+                                    color: #aaa;
+                                    font-size: .24rem;
+                                    text-align: right;
+                                }
+                            }
+                        }
+                    }
+                    .plan {
+                        background: #fff;
+                        height: .7rem;
+                        margin: 0;
+                        padding-left: .3rem;
+                        padding-top: .2rem;
+                        border-bottom: 0.02rem solid #F8F8F8;
+                        .planLeft {
+                            overflow: hidden;
+                            p {
+                                float: left;
+                                margin-bottom: .1rem;
+                                &:first-child {
+                                    font-size: .24rem;
+                                    color: #999999;
+                                }
+                                &:last-child {
+                                    color: #666;
+                                    font-size: .24rem;
+                                }
+                            }
+                        }
+                        .planRight {
+                            overflow: hidden;
+                            p {
+                                float: left;
+                                font-size: .28rem;
+                                color: #666;
+                                font-weight: 500;
+                                span {
+                                    color: #F54D42;
+                                    font-weight: 600;
+                                    margin-left: .1rem;
+                                    margin-right: .1rem;
+                                }
+                            }
+                        }
+                    }
+                    .buttonHandle {
+                        height: .96rem;
+                        background: #fff;
+                        padding-top: .2rem;
+                        padding-right: .3rem;
+                        .yd-btn {
+                            height: .54rem;
+                            width: 1.3rem;
+                            float: right;
+                            margin-left: .2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }

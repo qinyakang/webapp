@@ -1,0 +1,247 @@
+#carShop {
+    .yd-navbar {
+        height: .88rem;
+        padding-right: .3rem;
+        .yd-navbar-item {
+            &:last-child {
+                >a {
+                    height: auto;
+                    img {
+                        width: .28rem;
+                        height: .32rem;
+                    }
+                }
+            }
+        }
+    }
+    .yd-scrollview {
+        background: #FAFAFA;
+        .carBanner {
+            overflow: hidden;
+            padding-left: .3rem;
+            padding-right: .3rem;
+            background: #fff;
+            padding-top: .22rem;
+            .carSearch {
+                //width: 100%;
+                height: .64rem;
+                .cityName {
+                    float: left;
+                    width: 30%;
+                    //                  display: inline-block;
+                    //                  //width: 2rem;
+                    //                  height: 100%;
+                    line-height: .64rem;
+                    span {
+                        float: left;
+                        display: inline-block;
+                        //line-height: .64rem;
+                        font-size: .28rem;
+                        color: #666;
+                        width: 1rem;
+                        word-break: keep-all;
+                        /* 不换行 */
+                        white-space: nowrap;
+                        /* 不换行 */
+                        overflow: hidden;
+                        /* 内容超出宽度时隐藏超出部分的内容 */
+                        text-overflow: ellipsis;
+                    }
+                    i {
+                        //height: 100%;
+                        margin-left: .1rem;
+                        font-size: .22rem;
+                    }
+                }
+                .search {
+                    float: right;
+                    background: #FAFAFA;
+                    line-height: .64rem;
+                    width: 70%;
+                    text-align: center;
+                    border-radius: .36rem;
+                    i {
+                        color: #CCCCCC;
+                        font-size: .36rem;
+                    }
+                    span {
+                        margin-left: .2rem;
+                        font-size: .24rem;
+                        color: #B4B4B4;
+                    }
+                }
+            }
+            .carImg {
+                height: 2.96rem;
+                margin-top: .3rem;
+                .yd-slider {
+                    .yd-slider-wrapper {
+                        .yd-slider-item {
+                            img {
+                                height: 2.96rem;
+                            }
+                        }
+                    }
+                    .yd-slider-pagination {
+                        .yd-slider-pagination-item {
+                            border-radius: 0;
+                            width: .4rem;
+                            height: .04rem;
+                            background: #FF8F58;
+                        }
+                        .yd-slider-pagination-item-active {
+                            background: #fff;
+                        }
+                    }
+                }
+            }
+            .carActivity {
+                height: .34rem;
+                margin-top: .24rem;
+                .carActivitytext {
+                    float: left;
+                }
+            }
+            .carButton {
+                margin-top: .4rem !important;
+                //height: 3.52rem;
+                .yd-grids-5 {
+                    width: 100%;
+                    .yd-grids-item {
+                        padding: 0 !important;
+                        .yd-grids-icon {
+                            height: .6rem;
+                            img {
+                                height: 100%;
+                            }
+                        }
+                        .yd-grids-txt {
+                            margin-top: .18rem !important;
+                            margin-bottom: .18rem !important;
+                            span {
+                                font-size: .24rem;
+                                color: #282828;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .carMainactivity{
+            height: 4.8rem;
+            margin-top: .2rem;
+            padding: .3rem .3rem .34rem .3rem;
+            .Banneract{
+                height:1.76rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .Swiperact{
+                padding: .2rem .3rem;
+                height: 2.4rem;
+                .activityPic{
+                    width: 2.4rem !important;
+                    //margin-right: .2rem !important;
+                    height: 2rem;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        .carInfonor {
+            overflow: hidden;
+            background: #fff;
+            margin-top: .2rem;
+            padding: 0 .3rem .24rem .3rem;
+            .infoHead {
+                height: .92rem;
+                padding-top: .32rem;
+                p {
+                    &:first-child {
+                        float: left;
+                        font-size: .34rem;
+                        color: #282828;
+                        font-weight: 550;
+                    }
+                    &:last-child {
+                        float: right;
+                        font-size: .24rem;
+                        color: #FC7F56;
+                        width: 1.16rem;
+                        height: .56rem;
+                        text-align: center;
+                        line-height: .56rem;
+                        box-shadow:0 .04rem .08rem 0 rgba(0,0,0,0.06);
+                        border-radius: .28rem;
+                    }
+                }
+            }
+            .infoListsig {
+                .infoDetail {
+                    width: 6.9rem;
+                    height: 2.3rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .infoListtwo {
+                width: 6.9rem;
+                .infoDetail {
+                    height: 4.4rem;
+                    width: 3.3rem;
+                    float: left;
+                    &:nth-child(even) {
+                        margin-left: .3rem;
+                    }
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        .carInfoact {
+            overflow: hidden;
+            background: #fff;
+            margin-top: .2rem;
+            padding: 0 .34rem 0 .3rem;
+            .infoHead {
+                height: .92rem;
+                padding-top: .32rem;
+                p {
+                    float: left;
+                    font-size: .34rem;
+                    color: #282828;
+                    font-weight: 550;
+                }
+            }
+            .infoList {
+                width:6.9rem;
+                .infoImg {
+                    width:6.9rem;
+                    height: 1.36rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .detailList {
+                    .infoDetail {
+                        width:6.9rem;
+                        height: 2.3rem;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

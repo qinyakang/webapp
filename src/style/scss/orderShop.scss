@@ -1,0 +1,150 @@
+    #orderShop {
+        background: #FAFAFA;
+        .yd-scrollview {
+            .carInfo {
+                height: 1.36rem;
+                margin-top: .22rem;
+                background: #fff;
+                .carImg {
+                    float: left;
+                    padding-left: .34rem;
+                    padding-top: .2rem;
+                    img {
+                        width: 1.4rem;
+                        height: .9rem;
+                    }
+                }
+                .carText {
+                    margin-left: .3rem;
+                    float: left;
+                    p {
+                        line-height: 1.36rem;
+                        font-size: .26rem;
+                        color: #282828;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .yd-cell-box {
+                .yd-cell {
+                    .yd-cell-item {
+                        margin-top: .2rem;
+                        height: .94rem;
+                        background: #fff;
+                        .yd-cell-left {
+                            span {
+                                font-size: .28rem;
+                                font-weight: 600;
+                            }
+                        }
+                        .yd-cell-right {
+                            margin-left: .6rem;
+                            border-bottom: 1px solid #CCCCCC;
+                            .nameInput {
+                                font-size: .28rem;
+                                color: #D8D8D8;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                    .sexSelect {
+                        padding-top: .24rem;
+                        height: 1.02rem;
+                        padding-left: 1.8rem;
+                    }
+                    .shopTime {
+                        height: .96rem;
+                        border-top: 1px solid #f8f8f8;
+                        padding-left: .4rem;
+                        padding-top: .28rem;
+                        p {
+                            float: left;
+                            font-size: .28rem;
+                            color: #282828;
+                            &:last-child {
+                                margin-left: 1.18rem;
+                                color: #999;
+                                font-size: .36rem;
+                            }
+                        }
+                    }
+                    .phoneNumber {
+                        height: .96rem;
+                        border-top: 1px solid #f8f8f8;
+                        padding-left: .4rem;
+                        padding-top: .38rem;
+                        p {
+                            float: left;
+                            font-size: .28rem;
+                            color: #282828;
+                        }
+                        .phoneInput{
+                            margin-left: .68rem;
+                            border: none;
+                            font-size: .28rem;
+                            color: #282828;
+                        }
+                    }
+                    .yd-cell-item {
+                        height: .96rem;
+                        border-top: 1px solid #f8f8f8;
+                        padding-left: .36rem;
+                        .yd-cell-left {
+                            p {
+                                font-size: .28rem;
+                                color: #282828;
+                            }
+                        }
+                        .yd-cell-right {
+                            padding-left: .3rem;
+                            .yd-btn-warning {
+                                font-size: .28rem;
+                                font-weight: 600;
+                                background: #fff;
+                                color: #4586FF;
+                                float: right;
+                                padding: 0;
+                            }
+                        }
+                    }
+                    .shopArea {
+                        height: 1.56rem;
+                        border-top: 1px solid #f8f8f8;
+                        padding-left: .4rem;
+                        padding-top: .28rem;
+                        p {
+                            float: left;
+                            font-size: .28rem;
+                            color: #282828;
+                            &:nth-child(2) {
+                                margin-left: .34rem;
+                                span {
+                                    display: block;
+                                    &:first-child {
+                                        font-size: .26rem;
+                                        margin-bottom: .18rem;
+                                    }
+                                    &:last-child {
+                                        font-size: .22rem;
+                                    }
+                                }
+                            }
+                            &:last-child {
+                                padding-right: .3rem;
+                                color: #979797;
+                                font-size: .22rem;
+                                float: right;
+                            }
+                        }
+                    }
+                }
+            }
+            .previewButton {
+                marign-top: .8rem;
+                margin-left: .34rem;
+                width: 6.6rem;
+                height: 1rem;
+                background: rgba(245, 77, 66, 1);
+            }
+        }
+    }

@@ -1,0 +1,34 @@
+    #search {
+        background: #FAFAFA;
+        .yd-navbar {
+            &:after {
+                border-bottom: none;
+            }
+            .yd-navbar-item {
+                &:first-child {
+                    display: none;
+                }
+            }
+            .yd-navbar-center-box {
+                margin-left: 20%;
+                width: 100%;
+                .yd-navbar-center {
+                    display: inline-block;
+                    .yd-search {
+                        .yd-search-input {
+                            background: #fff;
+                            &:before {
+                                border-top: 0;
+                            }
+                            &:after{
+                                border: none;
+                            }
+                            >.search-input {
+                                background: #fafafa;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
